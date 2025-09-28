@@ -1,0 +1,104 @@
+header {
+    background-color: rgb(248, 255, 117); /* azul elegante */
+    color: rgb(16, 16, 16); /* texto en blanco */
+    text-align: center; /* centra el contenido */
+    padding: 20px; /* espacio interno */
+    font-family: "Segoe UI", Arial, sans-serif; /* tipografía */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* sombra para destacar */
+}
+
+header h1 {
+    margin: 0; /* quita margen por defecto */
+    font-size: 2em; /* tamaño del título */
+}
+
+header p {
+    margin: 5px 0 0; /* espacio pequeño debajo del título */
+    font-size: 1.1em; /* tamaño del subtítulo */
+    font-style: italic; /* estilo diferente para subtítulo */
+}
+
+body {
+    background-color: rgb(235, 235, 177); /* color de fondo suave */
+    font-family: Arial, sans-serif; /* tipografía para todo el sitio */
+    margin: 0; /* elimina márgenes por defecto del navegador */
+}
+
+h1 {
+    text-align: center; /* centra el título */
+    margin-top: 20px; /* espacio superior */
+}
+
+img {
+    width: 150px;   /* tamaño de la foto */
+    height: 150px;
+    border-radius: 50%; /* hace la imagen circular */
+    margin-bottom: 15px; /* espacio debajo de la foto */
+}
+
+/* Sección Datos Personales */
+div.datos-personales {
+    background-color: rgb(250, 250, 210); /* fondo amarillo suave */
+    padding: 20px; /* espacio interno */
+    margin: 20px auto; /* separa de otros bloques y centra horizontalmente */
+    border-radius: 12px; /* esquinas redondeadas */
+    text-align: center; /* centra texto e imagen */
+    max-width: 600px; /* limita el ancho para que no ocupe toda la pantalla */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* sombra ligera */
+    line-height: 1.6; /* espacio entre líneas más cómodo */
+}
+
+/* Elimina viñetas y espacio extra de listas */
+ul {
+    list-style-type: none; /* quita puntos de lista */
+    padding: 0; /* quita espacio interno de la lista */
+    margin: 0; /* quita espacio externo */
+}
+
+/* Secciones de Estudios y Experiencia */
+div.estudios,
+div.experiencia_laboral, div.capacitaciones {
+    background-color: rgb(240, 240, 200); /* color uniforme más suave */
+    padding: 15px; /* espacio interno */
+    margin: 20px auto; /* centrado y separación */
+    border-radius: 10px; /* esquinas redondeadas */
+    max-width: 700px; /* ancho limitado para pantallas grandes */
+    text-align: left; /* mejor lectura alineando a la izquierda */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* sombra ligera */
+}
+
+/* Títulos dentro de bloques */
+div.estudios h2,
+div.experiencia_laboral h2, div.capacitaciones h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.referencias {
+  background-color: rgb(240, 240, 200);
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 700px;
+  font-family: Arial, sans-serif;
+}
+
+.referencias h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.referencias table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.referencias th, .referencias td {
+  border: 1px solid #615f0a;
+  padding: 8px;
+  text-align: center;
+}
+
+.referencias th {
+  background-color: #eef651;
+}
